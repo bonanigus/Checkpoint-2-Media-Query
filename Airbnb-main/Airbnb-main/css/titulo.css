@@ -1,0 +1,40 @@
+.titulo{
+display: flex;
+justify-content: space-between;
+padding: 1rem 5rem;
+align-items: center;
+max-width: 100%;
+margin-top: 1rem;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icones h1{
+    font-weight: 100;
+}
+
+.icones p{
+    margin-right: 10px;
+    text-decoration: underline;
+    color: black;
+}
+
+#share{
+    margin-right: 8px;
+}
+
+#coracao{
+    margin-right: 8px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .titulo h1{
+        font-size: 1rem;
+    }
+}
+
